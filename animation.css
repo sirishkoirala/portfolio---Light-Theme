@@ -1,0 +1,94 @@
+/* navigation animation */
+#dev {
+   animation: eright 1s;
+}
+
+#home-n {
+   animation: eleft 1s;
+}
+
+#about-n {
+   animation: eleft 1.3s;
+}
+
+#projects-n {
+   animation: eleft 1.6s;
+}
+
+#contact-n {
+   animation: eleft 1.8s;
+}
+
+
+#line-1 {
+   animation: eleft 1.1s ease;
+}
+
+#line-2 {
+   animation: eleft 0.8s ease;
+}
+
+#waving_hand {
+   animation: shake 4s infinite;
+}
+
+#line-3 {
+   animation: eleft 0.5s;
+}
+
+#hero-main {
+   animation: blurer 2s ease;
+}
+
+@keyframes eleft {
+   0% {
+      transform: translate(250px, -200px)
+   }
+
+   100% {
+      transform: translateY(0px, 0px)
+   }
+}
+
+@keyframes eright {
+   0% {
+      transform: translate(-200px, -250px)
+   }
+
+   100% {
+      transform: translateY(0px, 0px)
+   }
+}
+
+@keyframes shake {
+   0% {
+      transform: rotate(-10deg)
+   }
+
+   50% {
+      transform: rotate(10deg)
+   }
+
+   100% {
+      transform: rotate(-10deg)
+   }
+}
+
+@keyframes scaler {
+   0% {
+      transform: scale(0)
+   }
+
+   100% {
+      transform: scale(1)
+   }
+}
+
+@keyframes blurer {
+   0% {
+      filter: blur(10px);
+   }
+   100% {
+      filter: blur(0);
+   }
+}
