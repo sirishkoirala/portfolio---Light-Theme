@@ -3,6 +3,11 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta
+         name="description"
+         content="Sirish Koirala - Front-end React developer and aspiring software engineer. Experienced web developer passionate about creating engaging user experiences."
+      />
+
       <title>Sirish Koirala | Welcome</title>
       <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon_io/favicon-16x16.png" />
       <link rel="stylesheet" href="reset.css" />
@@ -23,10 +28,7 @@
       <!-- nav-bar -->
 
       <nav>
-         <h3 class="logo flex">
-            Sirish
-            <p id="dev">.dev</p>
-         </h3>
+         <h3 class="logo">Sirish.dev</h3>
          <ul>
             <li id="home-n">
                <a href="#home">Home</a>
@@ -92,11 +94,18 @@
       <section id="home" class="hero">
          <div class="container" id="hero-main">
             <div class="content">
-               <div class="hero-main" >
+               <div class="hero-main">
                   <div class="hero-text">
-                     <h1>Front-End React Developer</h1>
+                     <h1>
+                        React Developer
+                        <p class="sub-heading">Node.js Learner</p>
+                     </h1>
                      <img id="waving_hand" src="/img/waving.png" alt="waving_hand" />
-                     <p>Hi, I'm Sirish Koirala. A passionate Front-end React Developer based in Biratnagar, Nepal.📍</p>
+                     <p>
+                        Hi, I'm Sirish Koirala. A passionate React Developer, currently adding Node.js skills to my
+                        toolkit! based in Biratnagar. 📍
+                     </p>
+
                      <span
                         ><a
                            aria-label="linkedin"
@@ -150,13 +159,13 @@
                            <img src="https://skillicons.dev/icons?i=html,css" alt="skill-icon" />
                         </li>
                         <li>
-                           <img src="https://skillicons.dev/icons?i=c,cpp" alt="skill-icon" />
-                        </li>
-                        <li>
-                           <img src="https://skillicons.dev/icons?i=figma,webflow" alt="skill-icon" />
+                           <img src="https://skillicons.dev/icons?i=cpp,cs" alt="skill-icon" />
                         </li>
                         <li>
                            <img src="https://skillicons.dev/icons?i=js,react" alt="skill-icon" />
+                        </li>
+                        <li>
+                           <img src="https://skillicons.dev/icons?i=nodejs,mongodb" alt="skill-icon" />
                         </li>
                      </ul>
                   </div>
@@ -181,11 +190,11 @@
                      <span id="aboutElement" style="text-decoration: none"></span>
                   </h4>
                   <p>
-                     Hey, my name is Sirish, and I'm a Frontend Developer. My passion is to create and develop a clean
+                     Hey, my name is Sirish, and I'm a JavaScript Developer. My passion is to create and develop a clean
                      UI/UX for my users.<br /><br />My current tech stack is centered around React as the primary
-                     library
+                     library and Node.js for handling the behind-the-scenes work.
                   </p>
-                  <a href="https://drive.google.com/file/d/1_FvwhynQrKfH66whBRkC2zRkGLS3r_Wq/view" target="_blank"
+                  <a href="https://drive.google.com/file/d/1rtN_CEzq8bN0f8wz7M-Oi78JZgWPatYv/view" target="_blank"
                      ><button class="formbtn resume-btn">View Resume</button></a
                   >
                </div>
@@ -200,25 +209,39 @@
                <p class="new-projects">My Projects</p>
                <div class="projectSet">
                   <div class="projectDivSize">
-                     <h3 class="projectTitle">GharNagar</h3>
+                     <h3 class="projectTitle">Real Estate</h3>
                      <p class="projectPara">
-                        GharNagar is a platform where people can buy/sell houses and also has renting facility.
+                        Managed real estate business providing buying, selling, and rental services, ensuring client
+                        satisfaction through professional management.
                      </p>
                   </div>
                   <div class="projectDivSize">
                      <h3 class="projectTitle">Personal Porfolio</h3>
-                     <p class="projectPara">This very website you are seeing.</p>
-                  </div>
-                  <div class="projectDivSize">
-                     <h3 class="projectTitle">News portal | Sirishx</h3>
                      <p class="projectPara">
-                        This is demonstration of how to use API to fetch data. In this project you can preview news
-                        according to search or navlists.
+                        Developed responsive personal website with clean design and comprehensive content for user
+                        satisfaction. This very website you are seeing.
                      </p>
                   </div>
                   <div class="projectDivSize">
-                     <h3 class="projectTitle">Sirish Writes Blogs</h3>
-                     <p class="projectPara">In development process...</p>
+                     <h3 class="projectTitle">News Portal</h3>
+                     <p class="projectPara">
+                        Developed website with API integration, custom search, dynamic data, and personalized
+                        interactions for enhanced user experience and tailored content display.
+                     </p>
+                  </div>
+                  <div class="projectDivSize">
+                     <h3 class="projectTitle">Task Manager</h3>
+                     <p class="projectPara">
+                        React todo app for task management: add, edit, remove tasks, optimizing productivity and user
+                        experience
+                     </p>
+                  </div>
+                  <div class="projectDivSize">
+                     <h3 class="projectTitle">Online Store</h3>
+                     <p class="projectPara">
+                        Created a React online store with categorized data, enabling users to view pictures, prices, and
+                        select items for their cart. Users can add multiple items to the cart and later modify it too.
+                     </p>
                   </div>
                </div>
             </div>
@@ -248,6 +271,33 @@
                               stroke-width="2"
                               stroke-linecap="round"
                               stroke-linejoin="round"
+                              class="icon icon-tabler icons-tabler-outline icon-tabler-phone"
+                           >
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                              <path
+                                 d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"
+                              />
+                           </svg>
+                        </span>
+                        <div class="contact__info">
+                           <h3 class="phone-text">Phone</h3>
+                           <a href="#">+977 9819349900</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="contact__icons">
+                     <div class="contact__icon-box">
+                        <span
+                           ><svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="30"
+                              height="30"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
                               class="tabler-icon tabler-icon-mail"
                            >
                               <path
@@ -257,7 +307,7 @@
                            </svg>
                         </span>
                         <div class="contact__info">
-                           <h3>Mail</h3>
+                           <h3 class="email-text">Mail</h3>
                            <a href="mailto:sirish.webdev@gmail.com">sirish.webdev@gmail.com</a>
                         </div>
                      </div>

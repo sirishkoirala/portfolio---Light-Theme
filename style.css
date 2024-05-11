@@ -105,7 +105,17 @@ nav ul a:hover {
 .hero-text h1 {
     color: #2d2e32;
     font-size: 5.5rem;
-    line-height: 1.2;
+    line-height: 0.8;
+    /* margin-bottom: 2rem; */
+    margin-top: 2rem
+}
+
+.hero-text h1 p {
+    color: #2d2e32;
+    font-family: poppins;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 0.8;
     margin-bottom: 2rem;
     margin-top: 2rem
 }
@@ -141,9 +151,9 @@ nav ul a:hover {
 .hero-text img {
     height: 6rem;
     position: absolute;
-    right: 13rem;
-    top: 8.7rem;
-    width: 6rem
+    right: 12rem;
+    top: 6.7rem;
+    width: 6rem;
 }
 
 
@@ -296,7 +306,7 @@ nav ul a:hover {
 }
 
 .resume-btn {
-    margin-top: 10px;
+    margin-top: 18px;
 }
 
 .resume-btn a {
@@ -391,7 +401,7 @@ nav ul a:hover {
 
 .contact__content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .contact__title p {
@@ -411,7 +421,7 @@ nav ul a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 8rem;
-    margin-top: 6rem
+    margin-top: 4rem
 }
 
 
@@ -468,15 +478,15 @@ nav ul a:hover {
 }
 
 .formBoxLength {
-    min-width: 350px;
-    height: 32px;
+    min-width: 400px;
+    height: 38px;
     padding: 4px;
     font-weight: 200;
 }
 
 #message {
-    height: 55px;
-    resize: none;
+    height: 75px;
+    resize: vertical;
     font-weight: 200;
     font-family: Arial, Helvetica, sans-serif;
 }

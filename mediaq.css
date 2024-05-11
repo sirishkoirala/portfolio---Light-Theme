@@ -151,6 +151,11 @@
         .hero-text h1 {
             font-size: 4rem
         }
+
+        .hero-text h1 p {
+            font-size: 3rem
+        }
+
     }
 
     @media (max-width:900px) {
@@ -170,22 +175,21 @@
 
     @media (max-width:900px) {
         .hero-text img {
-            right: 3rem
+            right: 2rem
         }
     }
 
     @media (max-width:500px) {
         .hero-text img {
             height: 4.5rem;
-            right: 4rem;
-            top: 6.4rem;
             width: 4.5rem
         }
     }
 
     @media (max-width:500px) {
         .hero-text img {
-            right: 3rem
+            right: 2rem;
+            top: 5.5rem;
         }
     }
 
@@ -364,8 +368,7 @@
             /* display: none     */
             left: 280px;
             transform: scale(0.7)
-            
-        }   
+        }
     }
 
     @media (max-width:750px) {
@@ -471,10 +474,21 @@
             margin-top: -68px;
         }
 
+        /* 
         .contact__info h3 {
             position: relative;
             left: 16px;
-            /* top: -5px; */
+           
+        } */
+
+        .phone-text {
+            position: relative;
+            left: 26px;
+        }
+
+        .email-text {
+            position: relative;
+            left: 17px;
         }
 
         .contact__info a {
@@ -496,8 +510,7 @@
 
     @media (max-width:460px) {
         .formBoxLength {
-            width: 100%;
-            ;
+            min-width: 100%;
         }
     }
 
