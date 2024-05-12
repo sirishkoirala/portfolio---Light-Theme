@@ -35,12 +35,8 @@ mobli.forEach((data) => {
 });
 
 
+// for footer
 
+const footerDate = document.querySelector(".footer-date");
 
-
-
-
-
-
-
-
+footerDate.innerText = `Copyright © ${new Date().getFullYear()},  All rights are reserved.`

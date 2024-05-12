@@ -362,6 +362,10 @@ nav ul a:hover {
     display: flex;
 }
 
+.project-link{
+    text-decoration: none;
+}
+
 .projectDivSize {
     border: 2px solid #383838;
     padding: 20px;
@@ -369,6 +373,7 @@ nav ul a:hover {
     width: 40%;
     flex: 0 0 auto;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .projectDivSize:hover {
@@ -423,11 +428,6 @@ nav ul a:hover {
     font-weight: 600 !important;
     padding: 1rem 1.3rem
 }
-
-
-
-
-
 
 
 
