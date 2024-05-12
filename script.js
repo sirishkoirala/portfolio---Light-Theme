@@ -1,3 +1,19 @@
+// for project slider
+
+const leftArrow = document.querySelector(".icon-tabler-arrow-left");
+const rightArrow = document.querySelector(".icon-tabler-arrow-right");
+const projectSet = document.querySelector(".projectSet");
+
+leftArrow.addEventListener('click', function () {
+   projectSet.scrollLeft -= 350;
+   console.log("clicked legt");
+});
+
+rightArrow.addEventListener('click', function () {
+   projectSet.scrollLeft += 350;
+});
+
+
 // for mobile nav bar
 
 const mobileMenu = document.querySelector(".mobile-menu");
@@ -12,14 +28,17 @@ tablerIcon.addEventListener("click", function () {
    mobileNav.classList.add("closed-menu");
 });
 
-mobli.forEach((data)=>{
-   data.addEventListener("click",function(){
+mobli.forEach((data) => {
+   data.addEventListener("click", function () {
       mobileNav.classList.add("closed-menu");
    })
 });
 
 
-// for Animation
+
+
+
+
 
 
 

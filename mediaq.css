@@ -415,13 +415,13 @@
             display: flex;
         }
 
-        /* .projectSet {
-            background-color: green;       
-        } */
+        .slide-btns svg {
+            height: 2.7rem;
+            width: 3rem;
+        }
 
         .projectDivSize {
-            width: 400px;
-            text-wrap: wrap;
+          width: 80%;
         }
     }
 
