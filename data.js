@@ -1,4 +1,4 @@
-[
+const projectsData = [
    {
       "id": 1,
       "title": "Online Store",
@@ -25,3 +25,19 @@
       "discription": "React todo app for task management: add, edit, remove tasks, optimizing productivity and user experience"
    }
 ]
+
+const projectsSet = document.querySelector(".projectSet");
+
+projectsData.forEach(project => {
+   const projectDiv = document.createElement("div");
+   projectDiv.classList.add("projectDivSize");
+
+   projectDiv.innerHTML = `
+      <img class="projectImg" src="https://placehold.co/300x200" alt="" />
+      <h3 class="projectTitle">${project.title}</h3>
+      <p class="projectPara">${project.discription}</p>
+   `;
+
+   projectsSet.appendChild(projectDiv);
+});
+
