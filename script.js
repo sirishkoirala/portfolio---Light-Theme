@@ -34,6 +34,22 @@ mobli.forEach((data) => {
    })
 });
 
+// for lazy loading
+document.addEventListener("DOMContentLoaded", function () {
+   const lazyBackground = document.getElementById('hero-img');
+
+   const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+         if (entry.isIntersecting) {
+            lazyBackground.style.backgroundImage = 'url("/img/profile-pic.png")';
+            observer.unobserve(entry.target);
+         }
+      });
+   });
+
+   observer.observe(lazyBackground);
+});
+
 
 // for footer
 

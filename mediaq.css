@@ -149,7 +149,7 @@
 
     @media (max-width:500px) {
         .hero-text h1 {
-            font-size: 4rem
+            font-size: 3rem
         }
 
         .hero-text h1 p {
@@ -188,8 +188,8 @@
 
     @media (max-width:500px) {
         .hero-text img {
-            right: 2rem;
-            top: 5.5rem;
+            right: 1rem;
+            top: 0.5rem;
         }
     }
 
@@ -421,7 +421,7 @@
         }
 
         .projectDivSize {
-          width: 80%;
+            width: 80%;
         }
     }
 

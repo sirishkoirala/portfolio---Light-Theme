@@ -104,9 +104,9 @@ nav ul a:hover {
 
 .hero-text h1 {
     color: #2d2e32;
-    font-size: 5.5rem;
+    font-size: 3.5rem;
     line-height: 0.8;
-    /* margin-bottom: 2rem; */
+    margin-bottom: 2rem;
     margin-top: 2rem
 }
 
@@ -149,11 +149,11 @@ nav ul a:hover {
 }
 
 .hero-text img {
-    height: 6rem;
+    height: 5rem;
     position: absolute;
     right: 12rem;
-    top: 6.7rem;
-    width: 6rem;
+    top: 0.7rem;
+    width: 5rem;
 }
 
 
@@ -171,7 +171,7 @@ nav ul a:hover {
     height: 35rem;
     position: relative;
     transition: all 1s ease-in-out;
-    width: 35rem
+    width: 35rem;
 }
 
 
@@ -362,7 +362,7 @@ nav ul a:hover {
     display: flex;
 }
 
-.project-link{
+.project-link {
     text-decoration: none;
 }
 
@@ -582,7 +582,8 @@ footer h3 {
 
 .footerc__socials a {
     color: #fff;
-    font-size: 2.3rem
+    font-size: 2.3rem;
+    transition: all .2s ease-in-out
 }
 
 .footerc__socials a:hover {

@@ -24,7 +24,7 @@ const projectsData = [
       "id": 4,
       "title": "News Portal",
       "link": "https://github.com/sirishkoirala/NewsPortal",
-      "photo": "https://kyoutofschoolalliance.org/wp-content/uploads/2022/04/news-wp-featured-image-700x475.png",
+      "photo": "https://vedantasoftware.com/uploads/2021-03/6053bef08b00b.jpg",
       "discription": "Developed website with API integration, custom search, dynamic data, and personalized interactions for enhanced user experience and tailored content display."
    },
    {
