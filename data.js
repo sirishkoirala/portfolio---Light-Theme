@@ -2,7 +2,7 @@ const projectsData = [
    {
       "id": 1,
       "title": "Online Store",
-      "photo": "https://management.org/wp-content/uploads/2022/02/How-to-start-an-onlline-store.jpg",
+      "photo": "https://ritztogel.com/wp-content/uploads/2024/01/b-88.jpg",
       "link": "https://github.com/sirishkoirala/DigitalStore",
       "discription": "Created a React online store with categorized data, enabling users to view pictures, prices, and select items for their cart. Users can add multiple items to the cart and later modify it too."
    },

@@ -188,7 +188,7 @@
 
     @media (max-width:500px) {
         .hero-text img {
-            right: 1rem;
+            right: -1rem;
             top: 0.5rem;
         }
     }

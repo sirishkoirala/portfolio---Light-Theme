@@ -4,6 +4,10 @@
     padding: 0
 }
 
+.test {
+    border: 2px solid red;
+}
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth
@@ -149,11 +153,11 @@ nav ul a:hover {
 }
 
 .hero-text img {
-    height: 5rem;
+    height: 4rem;
     position: absolute;
-    right: 12rem;
-    top: 0.7rem;
-    width: 5rem;
+    right: 13rem;
+    top: 1.2rem;
+    width: 4rem;
 }
 
 
@@ -185,8 +189,6 @@ nav ul a:hover {
     left: 0;
     position: absolute
 }
-
-
 
 .skills p {
     border-right: 2px solid rgba(45, 46, 50, .5);
