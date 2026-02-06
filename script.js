@@ -1,3 +1,4 @@
+// script.js
 // for project slider
 
 const leftArrow = document.querySelector(".icon-tabler-arrow-left");
